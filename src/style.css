@@ -1,0 +1,81 @@
+*, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  height: 10vh;
+  background-color: rgb(250, 114, 114);
+  color: rgb(244, 244, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.header-text {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+/*MAIN*/
+main {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.post {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.post-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  max-width: 50vw;
+  margin-left: 2rem;
+}
+
+.travel-photo {
+  width: 12rem;
+  border-radius: 12px;
+}
+
+.article-head {
+  text-align: left;
+}
+
+.location-container {
+  display: flex;
+}
+
+.location-container svg {
+  color: rgb(250, 114, 114);
+  margin-right: 2px;
+}
+
+ .location {
+   margin-right: 1rem;
+ }
+
+ .location-container a {
+   color: rgb(138, 138, 138);
+ }
+
+.post-text article {
+  text-align: left;
+}
+
+.post-text h2 {
+  font-size: 1.8em;
+  margin-top: 0.5rem;
+}
+
+.dates {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
